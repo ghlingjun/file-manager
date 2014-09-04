@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<request>
+  <operate_id>operateId</operate_id>
+  <request_time>now</request_time>
+  <apply_leader>leader</apply_leader>
+  <apply_reason>reason</apply_reason>
+  <auto_retraction>restraction</auto_retraction>
+  <source_terminal>
+    <terminal_id>terminalId</terminal_id>
+    <name>terminalName</name>
+  </source_terminal>
+  <request_staff>
+    <staff_id>staffId</staff_id>
+    <classified_level>level</classified_level>
+  </request_staff>
+  <destination_terminal>
+    <terminal_id>reciverId</terminal_id>
+    <name>reciverTerminalName</name>
+  </destination_terminal>
+  <reciver_staff>
+    <staff_id>staffId</staff_id>
+    <classified_level>level</classified_level>
+  </reciver_staff>
+  <files>
+    <file>
+      <id>fileId</id>
+      <name>fileName</name>
+      <path>filePath</path>
+      <type>fileType</type>
+      <classified_level>fileClassifiedLevel</classified_level>
+      <encryption_status>fileEncryptionStatus</encryption_status>
+      <update_time>updateTime</update_time>
+    </file>
+  </files>
+</request>
